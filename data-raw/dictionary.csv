@@ -1,1 +1,5 @@
 directory, file_name, variable_name, variable_type, description
+data, cleanteamghana.rda, age, int, Age of repondent
+data, cleanteamghana.rda, area, character, Origin area in Ghana from the respondent
+data, cleanteamghana.rda, toilet, character, Question: Are you able to observe a toilet?
+data, cleanteamghana.rda, money_toilet, character, Are you able to afford a toilet?
