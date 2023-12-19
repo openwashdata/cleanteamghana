@@ -48,18 +48,36 @@ cleanteamghana <- dataset |>
          -sanqol_proud_young, -sanqol_safety_young, -sanqol_shame_young, -sanqol_smell_young, -time, -vas1, -vas2, -vas3, -vas4, -exclusion_from_toilet_usage, -exclusion_from_toilet_usage_reason,
          -howmanyoppositesex, -odour_control_agents_other_baseline,	-odour_control_agents_other_endline,	-odour_control_agents_other_specify, -pit_lining_other,
          -random_wtp_1, -random_wtp_2, -random_wtp_3, -type_of_toilet_001) |> #not clear what the data is without further context
-  select(-gps_location, -gps_location_alt, -gps_location_lat, -gps_location_long, -gps_location_precision, -household_id, -interviewer_name, -phonenumber,
-         -willing_to_participate_young, -young_respondent_available,-young_respondent_available_female,-young_respondent_available_male,
-         -age_of_young_respondent, -sex_youngrespondent) |>  #private data
   select(-ctg_issues_excessive_smell_when_open,	-ctg_issues_full,	-ctg_issues_leaking,	-ctg_issues_none,	-ctg_issues_smells_when_closed,
          -smell_reduction_system_none,-smell_reduction_system_other,	-smell_reduction_system_other_specify,	-smell_reduction_system_pipe,	-smell_reduction_system_simplecover,
          -smell_reduction_system_waterseal,	-smell_reduction_system_window_or_vent, -toilet_use_payment_option_other, -date, -survey_start_time,
-         -odour_control_agents_ash_118, -odour_control_agents_ash_125, -odour_control_agents_chemicals) |> #data already present in other column
+         -odour_control_agents_ash_110, -odour_control_agents_ash_117, -odour_control_agents_chemicals, -sanqol_assault_num,	-sanqol_cleanliness_num,	-sanqol_convenience_num,
+         -sanqol_cost_num, -sanqol_disgust_num,	-sanqol_health_num,	-sanqol_privacy_num,	-sanqol_proud_num,	-sanqol_safety_num,	-sanqol_shame_num,
+         -sanqol_smell_num,	-satisfaction_towards_privacy_of_toilet_use_num,	-satisfaction_towards_toilet_cleanliness_num,	-satisfaction_combine_duities_and_using_toilet_num) |> #data already present in other column
   mutate(toilet_use_payment_option = ifelse(toilet_use_payment_option == "Other", "Per Desludge", toilet_use_payment_option),
          ever_unable_to_use_ctg = case_when(
            ever_unable_to_use_ctg %in% c("Yes", "No") ~ ever_unable_to_use_ctg,
            TRUE ~ NA_character_
          )) #-odour_control_agents_ash and -odour_control_agents_sawdust
+
+cleanteamghana <- cleanteamghana[complete.cases(cleanteamghana$submission_time), ]
+
+columns_to_factor <- c(
+  "sex_respondent", "highest_level_of_education", "employment_type",
+  "house_ownership", "electricity_situation", "fuel_used_for_cooking",
+  "location_of_water_source", "floor_material", "roof_material",
+  "wall_material", "primary_solidwaste_collection", "cleaned_toilet",
+  "smell_reduction_system", "cleanliness_of_pan", "cleanliness_of_slab",
+  "management_of_children_feces", "odour_control_agents_baseline", "odour_control_agents_endline",
+  "source_of_water_for_drinking", "how_likely_to_recommend_clean_team", "toilet_location_baseline",
+  "toilet_scrubbedmopped_frequency", "type_of_toilet", "toilet_use_payment_option", "urinate_or_defecate_at_night",
+  "why_not_use_household_toilets"
+)
+
+# Loop through the columns and convert each one to a factor with unique levels
+for (col in columns_to_factor) {
+  cleanteamghana[[col]] <- factor(cleanteamghana[[col]], levels = unique(cleanteamghana[[col]]))
+}
 
 ## code to prepare a tidy, analysis-ready dataset goes here
 
