@@ -1,4 +1,4 @@
-#' Clean Team Ghana
+#' Ghana Clean Team Survey
 #'
 #' The Clean Team Ghana dataset captures extensive information on various aspects of container-based sanitation in Ghana.
 #' It includes data on household demographics, sanitation facilities, cleanliness perceptions, usage patterns, satisfaction levels, concerns,

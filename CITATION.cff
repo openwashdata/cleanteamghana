@@ -7,17 +7,56 @@ cff-version: 1.2.0
 message: 'To cite package "cleanteamghana" in publications use:'
 type: software
 license: CC-BY-4.0
-title: 'cleanteamghana: What the Package Does (One Line, Title Case)'
+title: 'cleanteamghana: Clean Team Ghana'
 version: 0.0.0.9000
-abstract: What the package does (one paragraph).
+abstract: This package compiles user experience data for the Clean Team Ghana container-based
+  sanitation service in Kumasi, Ghana.
 authors:
 - family-names: Skorik
   given-names: Sophia
   email: sskorik@ethz.ch
   orcid: https://orcid.org/0009-0001-4755-1649
+- family-names: Tidwell
+  given-names: James Benjamin
+  orcid: https://orcid.org/0000-0001-5868-6584
+- family-names: Nyarko
+  given-names: Kwabena Biritwum
+  orcid: https://orcid.org/0000-0002-6544-6711
+- family-names: Ross
+  given-names: Ian
+  orcid: https://orcid.org/0000-0002-2218-5400
+- family-names: Dwumfour-Asare
+  given-names: Bismark
+  orcid: https://orcid.org/0000-0002-6493-3892
+- family-names: Scott
+  given-names: Pippa
+preferred-citation:
+  type: generic
+  title: 'cleanteamghana: What the Package Does (One Line, Title Case)'
+  authors:
+  - family-names: Skorik
+    given-names: Sophia
+    email: sskorik@ethz.ch
+    orcid: https://orcid.org/0009-0001-4755-1649
+  year: '2023'
+  abstract: What the package does (one paragraph).
+  version: 0.0.0.9000
 date-released: '2023-10-25'
 contact:
 - family-names: Skorik
   given-names: Sophia
   email: sskorik@ethz.ch
   orcid: https://orcid.org/0009-0001-4755-1649
+references:
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  location:
+    name: Vienna, Austria
+  year: '2023'
+  institution:
+    name: R Foundation for Statistical Computing
+  version: '>= 2.10'

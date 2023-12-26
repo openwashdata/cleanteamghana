@@ -1,10 +1,33 @@
 Package: cleanteamghana
-Title: What the Package Does (One Line, Title Case)
+Title: Clean Team Ghana 
 Version: 0.0.0.9000
-Authors@R: 
-    person("Sophia", "Skorik", , "sskorik@ethz.ch", role = c("aut", "cre"),
-           comment = c(ORCID = "0009-0001-4755-1649"))
-Description: What the package does (one paragraph).
+Authors@R:  c(
+    person(given= "Sophia", 
+           family = "Skorik", 
+           email = "sskorik@ethz.ch", 
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0001-4755-1649")),
+    person(given = "James Benjamin", 
+           family = "Tidwell", 
+           role = c("aut"),
+           comment = c(ORCID = "0000-0001-5868-6584")),
+    person(given = "Kwabena Biritwum", 
+           family = "Nyarko", 
+           role = c("aut"),
+           comment = c(ORCID = "0000-0002-6544-6711")),
+    person(given = "Ian", 
+           family = "Ross", 
+           role = c("aut"),
+           comment = c(ORCID = "0000-0002-2218-5400")),
+    person(given = "Bismark", 
+           family = "Dwumfour-Asare", 
+           role = c("aut"),
+           comment = c(ORCID = "0000-0002-6493-3892")),
+    person(given = "Pippa", 
+           family = "Scott", 
+           role = c("aut"))
+  )
+Description: This package compiles user experience data for the Clean Team Ghana container-based sanitation service in Kumasi, Ghana.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
