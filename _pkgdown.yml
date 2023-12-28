@@ -1,4 +1,26 @@
-url: ~
+url: https://github.com/openwashdata/cleanteamghana/blob/main/_pkgdown.yml
+
 template:
   bootstrap: 5
+  includes:
+    in_header: |
+      <script defer data-domain="openwashdata.github.io/" src="https://plausible.io/js/script.js"></script>
 
+home:
+  links:
+    - icon: github
+      text: GitHub repository
+      href: https://github.com/openwashdata/cleanteamghana
+  sidebar:
+    structure: [links, citation, authors, dev, custom]
+    components:
+      custom:
+
+authors:
+  footer:
+    roles: [cre, fnd]
+    text: "Crafted by"
+  sidebar:
+    roles: [cre, aut, ctb]
+    before: "So *who* does the work?"
+    after: "Thanks all!"

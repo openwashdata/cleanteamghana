@@ -4,6 +4,9 @@
 # cleanteamghana
 
 <!-- badges: start -->
+
+[![DOI](https://zenodo.org/badge/709679841.svg)](https://zenodo.org/doi/10.5281/zenodo.10439886)
+[![R-CMD-check](https://github.com/openwashdata/cleanteamghana/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/cleanteamghana/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This package contains compiled data utilized in a research paper
@@ -72,7 +75,7 @@ The package provides access to a single data set.
 library(cleanteamghana)
 ```
 
-The `cleanteamghana` data set has 127 variables and 583 observations.
+The `cleanteamghana` data set has 128 variables and 583 observations.
 For an overview of the variable names, see the following table.
 
 ``` r
@@ -285,7 +288,7 @@ ggplot(satisfaction_means, aes(x = Satisfaction_Category, y = Mean_Score)) +
 
 <img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" />
 
-## License
+## License 
 
 Data are available as
 [CC-BY](https://github.com/openwashdata/cleanteamghana/LICENSE.md).
@@ -293,22 +296,22 @@ Data are available as
 ## Citation
 
 To cite this package, please use:
- 
+
 ``` r
 citation("cleanteamghana")
 #> Um Paket 'cleanteamghana' in Publikationen zu zitieren, nutzen Sie
 #> bitte:
 #> 
-#>   Skorik S (2023). "cleanteamghana: What the Package Does (One Line,
-#>   Title Case)."
+#>   Skorik S, Tidwell J, Nyarko K, Ross I, Dwumfour-Asare B, Pippa S
+#>   (2023). "cleanteamghana: Clean Team Ghana."
 #> 
 #> Ein BibTeX-Eintrag für LaTeX-Benutzer ist
 #> 
-#>   @Misc{skorik,
-#>     title = {cleanteamghana: What the Package Does (One Line, Title Case)},
-#>     author = {Sophia Skorik},
+#>   @Misc{skoriktidwell,
+#>     title = {cleanteamghana: Clean Team Ghana},
+#>     author = {Sophia Skorik and James Benjamin Tidwell and Kwabena Biritwum Nyarko and Ian Ross and Bismark Dwumfour-Asare and Scott Pippa},
 #>     year = {2023},
-#>     abstract = {What the package does (one paragraph).},
+#>     abstract = {This package compiles user experience data for the Clean Team Ghana container-based sanitation service in Kumasi, Ghana.},
 #>     version = {0.0.0.9000},
 #>   }
 ```

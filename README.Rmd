@@ -21,6 +21,8 @@ library(cleanteamghana)
 # cleanteamghana
 
 <!-- badges: start -->
+[![DOI](https://zenodo.org/badge/709679841.svg)](https://zenodo.org/doi/10.5281/zenodo.10439886)
+[![R-CMD-check](https://github.com/openwashdata/cleanteamghana/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/cleanteamghana/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This package contains compiled data utilized in a research paper examining the user experience of the Clean Team Ghana's container-based sanitation service in Kumasi, Ghana.  
