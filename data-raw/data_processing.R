@@ -39,7 +39,7 @@ cleanteamghana <- dataset |>
   select(-version,-id,-index, -customer_available_and_over_18, -customer_willing_to_participate, -deviceid, -displaytenant, -image_of_ct_gtoilet, -image_of_house,
          -selectrandomperson,-simserial, -wtp_carrying,-wtp_carrying_10,	-wtp_carrying_15,-wtp_carrying_5,-wtp_enclosure,-wtp_enclosure_10,-wtp_enclosure_15,
          -wtp_enclosure_5,-wtp_frequency,	-wtp_frequency_10,-wtp_frequency_15,-wtp_frequency_5) |> #irrelevant data
-  select(-validation_status, -community_other, -cost_per_other, -cost_per_month, -cost_per_month_endline, -cost_per_week,
+  select(-validation_status, -community_other, -cost_per_other, -cost_per_month, cost_per_month_endline, -cost_per_week,
          -ctg_information_family, -ctg_information_friend, -ctg_information_neighbour, -ctg_information_other, -ctg_information_other_specify, -ctg_information_salesagent,
          -ctg_information_spouse, -ctg_recommendation_family, -ctg_recommendation_friend, -ctg_recommendation_neighbour, -ctg_recommendation_other, -ctg_information_other_specify, -ctg_information_salesagent,
          -ctg_recommendation_none, -ctg_recommendation_other_specify, -type_of_toilet_other, -type_of_toilet_other_001, -why_not_use_a_toilet_other) |> #empty (or almost) column
