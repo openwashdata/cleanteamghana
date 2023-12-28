@@ -65,3 +65,4 @@ write_citation("CITATION.cff", file = path_cit)
 
 # By last, read the citation
 cat(readLines(path_cit), sep = "\n")
+
