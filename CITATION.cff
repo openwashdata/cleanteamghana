@@ -2,7 +2,7 @@
 # CITATION file created with {cffr} R package, v0.5.0
 # See also: https://docs.ropensci.org/cffr/
 # -----------------------------------------------------------
- 
+
 cff-version: 1.2.0
 message: 'To cite package "cleanteamghana" in publications use:'
 type: software
@@ -27,20 +27,6 @@ authors:
   orcid: https://orcid.org/0000-0002-2218-5400
 - family-names: Dwumfour-Asare
   given-names: Bismark
-  orcid: https://orcid.org/0000-0002-6493-3892
-- family-names: Scott
-  given-names: Pippa
-- family-names: James Benjamin
-  given-names: Tidwell
-  orcid: https://orcid.org/0000-0001-5868-6584
-- family-names: Kwabena Biritwum
-  given-names: Nyarko
-  orcid: https://orcid.org/0000-0002-6544-6711
-- family-names: Ian
-  given-names: Ross
-  orcid: https://orcid.org/0000-0002-2218-5400
-- family-names: Bismark
-  given-names: Dwumfour-Asare
   orcid: https://orcid.org/0000-0002-6493-3892
 - family-names: Pippa
   given-names: Scott

@@ -8,26 +8,26 @@ use_author(
   comment = c(ORCID = "0009-0001-4755-1649")
 )
 use_author(
-  given = "Tidwell",
-  family = "James Benjamin",
+  given = "James Benjamin",
+  family = "Tidwell",
   role = c("aut"),
   comment = c(ORCID = "0000-0001-5868-6584")
 )
 use_author(
-  given = "Nyarko",
-  family = "Kwabena Biritwum",
+  given = "Kwabena Biritwum",
+  family = "Nyarko",
   role = c("aut"),
   comment = c(ORCID = "0000-0002-6544-6711")
 )
 use_author(
-  given = "Ross",
-  family = "Ian",
+  given = "Ian",
+  family = "Ross",
   role = c("aut"),
   comment = c(ORCID = "0000-0002-2218-5400")
 )
 use_author(
-  given = "Dwumfour-Asare",
-  family = "Bismark",
+  given = "Bismark",
+  family = "Dwumfour-Asare",
   role = c("aut"),
   comment = c(ORCID = "0000-0002-6493-3892")
 )

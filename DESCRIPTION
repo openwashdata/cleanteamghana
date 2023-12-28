@@ -12,15 +12,6 @@ Authors@R: c(
            comment = c(ORCID = "0000-0002-2218-5400")),
     person("Bismark", "Dwumfour-Asare", role = "aut",
            comment = c(ORCID = "0000-0002-6493-3892")),
-    person("Pippa", "Scott", role = "aut"),
-    person("Tidwell", "James Benjamin", role = "aut",
-           comment = c(ORCID = "0000-0001-5868-6584")),
-    person("Nyarko", "Kwabena Biritwum", role = "aut",
-           comment = c(ORCID = "0000-0002-6544-6711")),
-    person("Ross", "Ian", role = "aut",
-           comment = c(ORCID = "0000-0002-2218-5400")),
-    person("Dwumfour-Asare", "Bismark", role = "aut",
-           comment = c(ORCID = "0000-0002-6493-3892")),
     person("Scott", "Pippa", role = "aut")
   )
 Description: This package compiles user experience data for the Clean Team Ghana container-based sanitation service in Kumasi, Ghana.

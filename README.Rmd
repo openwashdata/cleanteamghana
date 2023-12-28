@@ -164,7 +164,7 @@ Data are available as
 
 ## Citation
 
-To cite this package, please use:
+To cite this package, please use: 
 
 ```{r}
 citation("cleanteamghana")

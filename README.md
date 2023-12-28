@@ -293,7 +293,7 @@ Data are available as
 ## Citation
 
 To cite this package, please use:
-
+ 
 ``` r
 citation("cleanteamghana")
 #> Um Paket 'cleanteamghana' in Publikationen zu zitieren, nutzen Sie
