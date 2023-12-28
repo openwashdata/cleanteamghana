@@ -1,7 +1,7 @@
 
 bibentry(bibtype = "Misc",
          key = "skorik",
-         title = "cleanteamghana: What the Package Does (One Line, Title Case)",
+         title = "cleanteamghana",
          author = person(given = "Sophia",
                          family = "Skorik"),
          year = "2023",
