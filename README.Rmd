@@ -27,6 +27,30 @@ library(cleanteamghana)
 
 This package contains compiled data utilized in a research paper examining the user experience of the Clean Team Ghana's container-based sanitation service in Kumasi, Ghana.  
 
+```{r, echo=FALSE}
+library(ggplot2)
+
+annotations <- data.frame(
+  x = c(round(mean(cleanteamghana$time_to_access_toilet, na.rm = TRUE), 2), 
+        round(median(cleanteamghana$time_to_access_toilet, na.rm = TRUE), 2)),
+  y = c(165, 175),
+  label = c("Mean:", "Median:")
+) 
+
+ggplot(cleanteamghana, aes(time_to_access_toilet)) +
+  geom_histogram(binwidth = 3, color = "#000000", fill = "#59CF94", boundary = 0, na.rm = TRUE) +
+  labs(
+    title = "Time to access toilets before installation of CTG containers",
+    x = "Time (minutes)",
+    y = "Count"
+  ) +
+  theme_classic() +
+  theme(
+    plot.title = element_text(color = "#59CF94", size = 16, face = "bold")
+  ) +
+  scale_x_continuous(breaks = seq(0, 60, by = 10)) +
+  geom_text(data = annotations, aes(x = x, y = y, label = paste(label, x)), size = 3, fontface = "bold")
+```
 
 ## Installation
 

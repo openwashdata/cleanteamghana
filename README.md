@@ -13,6 +13,8 @@ This package contains compiled data utilized in a research paper
 examining the user experience of the Clean Team Ghana’s container-based
 sanitation service in Kumasi, Ghana.
 
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+
 ## Installation
 
 You can install the development version of cleanteamghana from
@@ -247,7 +249,7 @@ ggplot(cleanteamghana, aes(time_to_access_toilet)) +
   geom_text(data = annotations, aes(x = x, y = y, label = paste(label, x)), size = 3, fontface = "bold")
 ```
 
-<img src="man/figures/README-unnamed-chunk-6-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" />
 
 ### 2) Customer Sanitation Satisfaction Categories: Mean Scores Comparison
 
@@ -286,9 +288,9 @@ ggplot(satisfaction_means, aes(x = Satisfaction_Category, y = Mean_Score)) +
   ylim(0, 4)
 ```
 
-<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-8-1.png" width="100%" />
 
-## License 
+## License
 
 Data are available as
 [CC-BY](https://github.com/openwashdata/cleanteamghana/LICENSE.md).
@@ -299,13 +301,12 @@ To cite this package, please use:
 
 ``` r
 citation("cleanteamghana")
-#> Um Paket 'cleanteamghana' in Publikationen zu zitieren, nutzen Sie
-#> bitte:
+#> To cite package 'cleanteamghana' in publications use:
 #> 
 #>   Skorik S, Tidwell J, Nyarko K, Ross I, Dwumfour-Asare B, Pippa S
 #>   (2023). "cleanteamghana: Clean Team Ghana."
 #> 
-#> Ein BibTeX-Eintrag für LaTeX-Benutzer ist
+#> A BibTeX entry for LaTeX users is
 #> 
 #>   @Misc{skoriktidwell,
 #>     title = {cleanteamghana: Clean Team Ghana},
