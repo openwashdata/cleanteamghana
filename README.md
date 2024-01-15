@@ -32,13 +32,21 @@ file from the table below.
 |:---------------|:--------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
 | cleanteamghana | [Download CSV](https://github.com/openwashdata/cleanteamghana/raw/main/inst/extdata/cleanteamghana.csv) | [Download XLSX](https://github.com/openwashdata/cleanteamghana/raw/main/inst/extdata/cleanteamghana.xlsx) |
 
-# The Research paper
+# The research paper
 
 The research paper associated with this data package is named
 [“Evaluation of user experiences for the Clean Team Ghana
 container-based sanitation service in Kumasi,
 Ghana”](https://iwaponline.com/washdev/article/12/3/336/86884/Evaluation-of-user-experiences-for-the-Clean-Team)
-and was published in the Journal of Water, Sanitations & Hygiene (WASH)
+(Tidwell et al., 2022).
+
+*Tidwell, J. B., Nyarko, K. B., Ross, I., Dwumfour-Asare, B., & Scott,
+P. (2022). Evaluation of user experiences for the Clean Team Ghana
+container-based sanitation service in Kumasi, Ghana. Journal of Water,
+Sanitation and Hygiene for Development, 12(3), 336–346.
+<https://doi.org/10.2166/washdev.2022.013>*
+
+It was published in the Journal of Water, Sanitations & Hygiene (WASH)
 for Development on March 1st, 2022.
 
 ## Description
