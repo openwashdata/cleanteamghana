@@ -18,9 +18,13 @@ Description: This package compiles user experience data for the Clean Team Ghana
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
 Depends: 
     R (>= 2.10)
 LazyData: true
 Language: en-GB
-Date: 2023-10-25
+Date: 2026-09-18
+X-schema.org-keywords: open data, washdata, container-based sanitation, Ghana
+Config/Needs/website: rmarkdown
+URL: https://github.com/openwashdata/cleanteamghana
+BugReports: https://github.com/openwashdata/cleanteamghana/issues
+Config/roxygen2/version: 8.0.0
