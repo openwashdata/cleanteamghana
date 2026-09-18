@@ -1,14 +1,15 @@
-# -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.5.0
+# ------------------------------------------------
+# CITATION.cff file created with {cffr} R package
 # See also: https://docs.ropensci.org/cffr/
-# -----------------------------------------------------------
-
+# ------------------------------------------------
+ 
 cff-version: 1.2.0
 message: 'To cite package "cleanteamghana" in publications use:'
-type: software
+type: dataset
 license: CC-BY-4.0
 title: 'cleanteamghana: Clean Team Ghana'
-version: 0.0.0.9000
+version: 0.0.2
+doi: 10.5281/zenodo.10439886
 abstract: This package compiles user experience data for the Clean Team Ghana container-based
   sanitation service in Kumasi, Ghana.
 authors:
@@ -30,9 +31,23 @@ authors:
   orcid: https://orcid.org/0000-0002-6493-3892
 - family-names: Pippa
   given-names: Scott
-date-released: '2023-12-28'
+repository-code: https://github.com/openwashdata/cleanteamghana
+url: https://github.com/openwashdata/cleanteamghana
+date-released: '2026-09-18'
 contact:
 - family-names: Skorik
   given-names: Sophia
   email: sskorik@ethz.ch
   orcid: https://orcid.org/0009-0001-4755-1649
+keywords:
+- open data
+- washdata
+- container-based sanitation
+- Ghana
+- container-based-sanitation
+- ghana
+- open-data
+- openwashdata
+- r
+- sanitation
+
