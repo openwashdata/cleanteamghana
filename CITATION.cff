@@ -8,7 +8,7 @@ message: 'To cite package "cleanteamghana" in publications use:'
 type: dataset
 license: CC-BY-4.0
 title: 'cleanteamghana: Clean Team Ghana'
-version: 0.0.0.9000
+version: 0.0.2
 doi: 10.5281/zenodo.10439886
 abstract: This package compiles user experience data for the Clean Team Ghana container-based
   sanitation service in Kumasi, Ghana.

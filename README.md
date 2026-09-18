@@ -329,6 +329,6 @@ citation("cleanteamghana")
 #>     url = {https://github.com/openwashdata/cleanteamghana},
 #>     abstract = {This package compiles user experience data for the Clean Team Ghana container-based sanitation service in Kumasi, Ghana.},
 #>     keywords = {open data,washdata,container-based sanitation,Ghana,container-based-sanitation,ghana,open-data,openwashdata,r,sanitation},
-#>     version = {0.0.0.9000},
+#>     version = {0.0.2},
 #>   }
 ```

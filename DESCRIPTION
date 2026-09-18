@@ -1,6 +1,6 @@
 Package: cleanteamghana
 Title: Clean Team Ghana 
-Version: 0.0.0.9000
+Version: 0.0.2
 Authors@R: c(
     person("Sophia", "Skorik", , "sskorik@ethz.ch", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0001-4755-1649")),
