@@ -21,7 +21,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/openwashdata/cleanteamghana/blob/main/inst/CITATION)
+[`inst/CITATION`](https://github.com/openwashdata/cleanteamghana/blob/v0.0.2/inst/CITATION)
 
 Skorik S, Tidwell J, Nyarko K, Ross I, Dwumfour-Asare B, Pippa S (2026).
 “cleanteamghana: Clean Team Ghana.”
