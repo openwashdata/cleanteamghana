@@ -2,8 +2,7 @@
 
 ## Authors
 
-- **Sophia Skorik**. Author, maintainer.
-  [](https://orcid.org/0009-0001-4755-1649)
+- **Sophia Skorik**. Author. [](https://orcid.org/0009-0001-4755-1649)
 
 - **James Benjamin Tidwell**. Author.
   [](https://orcid.org/0000-0001-5868-6584)
@@ -18,19 +17,22 @@
 
 - **Scott Pippa**. Author.
 
+- **Lars Schöbitz**. Maintainer.
+  [](https://orcid.org/0000-0003-2196-5015)
+
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/openwashdata/cleanteamghana/blob/v0.0.2/inst/CITATION)
+[`inst/CITATION`](https://github.com/openwashdata/cleanteamghana/blob/main/inst/CITATION)
 
-Skorik S, Tidwell J, Nyarko K, Ross I, Dwumfour-Asare B, Pippa S (2026).
-“cleanteamghana: Clean Team Ghana.”
+Skorik S, Tidwell J, Nyarko K, Ross I, Dwumfour-Asare B, Pippa S,
+Schöbitz L (2026). “cleanteamghana: Clean Team Ghana.”
 [doi:10.5281/zenodo.10439886](https://doi.org/10.5281/zenodo.10439886).
 <https://github.com/openwashdata/cleanteamghana>.
 
     @Misc{skorik_etall:2026,
       title = {cleanteamghana: Clean Team Ghana},
-      author = {Sophia Skorik and James Benjamin Tidwell and Kwabena Biritwum Nyarko and Ian Ross and Bismark Dwumfour-Asare and Scott Pippa},
+      author = {Sophia Skorik and James Benjamin Tidwell and Kwabena Biritwum Nyarko and Ian Ross and Bismark Dwumfour-Asare and Scott Pippa and Lars Schöbitz},
       year = {2026},
       doi = {10.5281/zenodo.10439886},
       url = {https://github.com/openwashdata/cleanteamghana},

@@ -309,8 +309,8 @@ To cite this package, please use:
 citation("cleanteamghana")
 #> To cite package 'cleanteamghana' in publications use:
 #> 
-#>   Skorik S, Tidwell J, Nyarko K, Ross I, Dwumfour-Asare B, Pippa S
-#>   (2026). "cleanteamghana: Clean Team Ghana."
+#>   Skorik S, Tidwell J, Nyarko K, Ross I, Dwumfour-Asare B, Pippa S,
+#>   Schöbitz L (2026). "cleanteamghana: Clean Team Ghana."
 #>   doi:10.5281/zenodo.10439886
 #>   <https://doi.org/10.5281/zenodo.10439886>.
 #>   <https://github.com/openwashdata/cleanteamghana>.
@@ -319,7 +319,7 @@ citation("cleanteamghana")
 #> 
 #>   @Misc{skorik_etall:2026,
 #>     title = {cleanteamghana: Clean Team Ghana},
-#>     author = {Sophia Skorik and James Benjamin Tidwell and Kwabena Biritwum Nyarko and Ian Ross and Bismark Dwumfour-Asare and Scott Pippa},
+#>     author = {Sophia Skorik and James Benjamin Tidwell and Kwabena Biritwum Nyarko and Ian Ross and Bismark Dwumfour-Asare and Scott Pippa and Lars Schöbitz},
 #>     year = {2026},
 #>     doi = {10.5281/zenodo.10439886},
 #>     url = {https://github.com/openwashdata/cleanteamghana},
