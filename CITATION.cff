@@ -31,14 +31,18 @@ authors:
   orcid: https://orcid.org/0000-0002-6493-3892
 - family-names: Pippa
   given-names: Scott
+- family-names: Schöbitz
+  given-names: Lars
+  email: lschoebitz@ethz.ch
+  orcid: https://orcid.org/0000-0003-2196-5015
 repository-code: https://github.com/openwashdata/cleanteamghana
 url: https://github.com/openwashdata/cleanteamghana
 date-released: '2026-09-18'
 contact:
-- family-names: Skorik
-  given-names: Sophia
-  email: sskorik@ethz.ch
-  orcid: https://orcid.org/0009-0001-4755-1649
+- family-names: Schöbitz
+  given-names: Lars
+  email: lschoebitz@ethz.ch
+  orcid: https://orcid.org/0000-0003-2196-5015
 keywords:
 - open data
 - washdata
