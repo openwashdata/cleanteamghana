@@ -1,5 +1,7 @@
 # cleanteamghana
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 This package contains compiled data utilized in a research paper
 examining the user experience of the Clean Team Ghana’s container-based
 sanitation service in Kumasi, Ghana.
