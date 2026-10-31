@@ -10,6 +10,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10439886.svg)](https://zenodo.org/doi/10.5281/zenodo.10439886)
 <!-- badges: end -->
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 This package contains compiled data utilized in a research paper
 examining the user experience of the Clean Team Ghana’s container-based
 sanitation service in Kumasi, Ghana.
