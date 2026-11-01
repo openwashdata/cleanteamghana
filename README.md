@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# cleanteamghana
+# cleanteamghana <a href="https://openwashdata.org"><img src="man/figures/logo.png" align="right" width="120" alt="openwashdata" /></a>
 
 <!-- badges: start -->
 
@@ -9,8 +9,6 @@
 [![R-CMD-check](https://github.com/openwashdata/cleanteamghana/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/cleanteamghana/actions/workflows/R-CMD-check.yaml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10439886.svg)](https://zenodo.org/doi/10.5281/zenodo.10439886)
 <!-- badges: end -->
-
-A data package published by [openwashdata](https://openwashdata.org).
 
 This package contains compiled data utilized in a research paper
 examining the user experience of the Clean Team Ghana’s container-based
@@ -308,6 +306,8 @@ Data are available as
 [CC-BY](https://github.com/openwashdata/cleanteamghana/LICENSE.md).
 
 ## Citation
+
+Published by openwashdata, <https://openwashdata.org>.
 
 To cite this package, please use:
 

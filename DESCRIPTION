@@ -26,7 +26,7 @@ LazyData: true
 Language: en-GB
 Date: 2026-09-18
 X-schema.org-keywords: open data, washdata, container-based sanitation, Ghana
-Config/Needs/website: rmarkdown
+Config/Needs/website: rmarkdown, brand.yml
 URL: https://github.com/openwashdata/cleanteamghana
 BugReports: https://github.com/openwashdata/cleanteamghana/issues
 Config/roxygen2/version: 8.0.0
@@ -39,4 +39,5 @@ Config/washr/publisher: Published by [openwashdata](https://openwashdata.org), a
 Config/washr/home: https://openwashdata.org
 Config/washr/catalog: https://openwashdata.org/pages/gallery/data/
 Config/washr/community: This package is part of [openwashdata](https://openwashdata.org). Browse the [data catalogue](https://openwashdata.org/pages/gallery/data/) or get the [newsletter](https://openwashdata.org/pages/newsletter/).
-Config/washr/version: 1.2.1
+Config/washr/version: 1.2.2
+Config/washr/brand: v1.1.0
